@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova</title>
+    <link rel="stylesheet" href="stylr.css">
+</head>
+<body>
+    <section class="produto-informacao">
+        <h1>Painel de Análise de Produtos</h1>
+        <section class="cadastro-p">
+            <input type="text" placeholder="Nome do produto" id="p-nome">
+            <input type="number" placeholder="Preço (R$)" id="p-preco">
+            <input type="number" placeholder="Quantidade" id="p-quantidade">
+            <button id="cadastrar-p">Adicionar o Produto</button>
+        </section>
+        <section class="card-principal">
+            <div class="p-caro">
+                <div class="p-caro-titulo">
+                    <h3>Produto Mais Caro:</h3>
+                </div>
+                <div class="p-caro-resultado">
+                    <p id="p-caro-nome"></p>
+                </div>
+            </div>
+            <div class="p-quantidade">
+                <div class="p-qtde-titulo">
+                    <h3>Maior Quantidade:</h3>
+                </div>
+                <div class="p-qtde-resultado">
+                    <p id="p-qtde-nome"></p>
+                </div>
+            </div>
+            <div class="valor-estoque">
+                <div class="valorestoque-titulo">
+                    <h3>Valor Total em Estoque:</h3>
+                </div>
+                <div class="valorestoque-resultado">
+                    <p id="valor-estoque"></p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="prova.js"></script>
+</body>
+</html>
